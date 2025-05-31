@@ -1,0 +1,204 @@
+
+h2{
+  color: white !important;
+}
+h3{
+  color: #ffffff8a !important;
+  filter: drop-shadow(1px 1px 2px rgb(24, 23, 23)) !important;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+}
+
+.navbar .btn-link:hover {
+  color: #000;
+}
+.search-bar-container input::placeholder {
+  color: #cccccc;
+  font-weight: 500;
+}
+
+
+/* KPI BOX */
+.kpi-box {
+  border-radius: 8px;
+  padding: 16px;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 0px 10px #001027;
+  margin: 8px;
+}
+
+.kpi-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.kpi-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.kpi-percentage {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+
+/* demographics */
+
+h2, h3 {
+  color: #333;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-md-50 {
+  width: 50%;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #001027;
+}
+
+
+/* Main Content */
+.main-content {
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #15243e;
+  color: white;
+}
+.main-content-insta {
+width: 100%;
+}
+
+.bar-hover:hover {
+  background-color: rgb(237, 8, 8) !important; 
+}
+
+
+/* ------------------------------------------Omnitrix */
+.blur-background {
+  filter: blur(5px);
+  pointer-events: none; 
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; 
+}
+
+
+.modal-content {
+  background-color: #0645a4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+
+.btn-secondary {
+  margin-left: 10px;
+}
+
+/* ------------------------- Instagram */
+/* TOP 5 POSTS */
+/* Styling for the Post List */
+.post-list {
+  padding: 20px;
+  border: 2px solid white;
+  margin: 21px;
+  box-shadow: 0 0 10px #e0e0eb6b;
+}
+
+/* Grid layout for posts */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* Creates 8 equal columns */
+  gap: 10px;
+  border-bottom: 2px solid #ddd; /* Optional: Adds a bottom border for separation */
+}
+
+/* Styling for the header row (labels) */
+.post-header {
+  display: contents; /* This allows the header row to match the grid structure */
+  font-weight: bold;
+  background-color: #f1f1f1;
+  padding: 10px 0;
+}
+
+.post-header span {
+  text-align: center;
+}
+
+/* Styling for each post row */
+.post-row {
+  display: contents; /* Each post's columns align with the header */
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styling for the permalink column */
+.post-row a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.post-row a:hover {
+  text-decoration: underline;
+}
+
+.rg-model{
+  width:385px !important;
+}
+.head_p{
+       color: rgb(15 15 15);
+    background: azure;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 8px;
+  }
+
+
+  /* ------------------------------------ ADS DATA */
