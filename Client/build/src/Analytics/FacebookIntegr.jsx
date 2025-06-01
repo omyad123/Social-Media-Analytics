@@ -4,7 +4,7 @@ import { FaRss } from 'react-icons/fa6';
 const FacebookIntegr = () =>{
 
     const FACEBOOK_APP_ID = '1188008382709475'
-    const REDIRECT_URI = 'https://social-media-analytics-black.vercel.app/auth/facebook/callback';
+    const REDIRECT_URI = 'https://omnidash.live/auth/facebook/callback';
   
     const loginWithFacebook = () => {
       const fbLoginUrl = `https://www.facebook.com/v18.0/dialog/oauth?client_id=${FACEBOOK_APP_ID}&redirect_uri=${REDIRECT_URI}&scope=public_profile,pages_show_list,ads_read,pages_read_engagement,pages_read_user_content&response_type=code&state=facebook`;
