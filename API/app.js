@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-const allowedOrigins = ['http://localhost:5173', 'https://social-media-analytics-black.vercel.app'];
+const allowedOrigins = ['http://localhost:5173', 'https://omnidash.live'];
                                                  
 app.use(cors({
     origin: (origin, callback) => {
