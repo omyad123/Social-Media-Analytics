@@ -12,8 +12,8 @@ const router = express.Router();
 
 const CLIENT_ID = '1188008382709475';
 const CLIENT_SECRET = 'df33a7bf166c4508801493df712744fe';
-const REDIRECT_URI = 'https://social-media-analytics-black.vercel.app/auth/facebook/callback';
-const REDIRECT_URI_insta = 'https://social-media-analytics-black.vercel.app/auth/instagram/callback';
+const REDIRECT_URI = 'https://omnidash.live/auth/facebook/callback';
+const REDIRECT_URI_insta = 'https://omnidash.live/auth/instagram/callback';
 
 // STEP 1: Exchange code for short-lived access token
 router.post('/exchange-code',Authenticated, async (req, res) =>{
