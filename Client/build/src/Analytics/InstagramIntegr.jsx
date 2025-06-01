@@ -3,7 +3,7 @@ import { FaRss } from 'react-icons/fa6';
 const InstagramIntegr = () => {
 
   const FACEBOOK_APP_ID = '1188008382709475';
-  const INSTAGRAM_REDIRECT_URI = 'https://social-media-analytics-black.vercel.app/auth/instagram/callback'; 
+  const INSTAGRAM_REDIRECT_URI = 'https://omnidash.live/auth/instagram/callback'; 
 
   // Function to login with Instagram (OAuth)
   const loginWithInstagram = () => {
